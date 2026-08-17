@@ -1,152 +1,144 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Junteng Liu",
+    "email": "jliugi@connect.ust.hk",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://tooalthon-user-11-sketch.github.io/LJT-Homepage",
+    "summary": "First-year Ph.D. candidate at HKUST NLP Group, working on natural language processing and machine learning. Research interests include LLM reasoning, VLM hallucination, LLM truthfulness, and interpretability.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Hong Kong",
+      "countryCode": "HK",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Vicent0205",
+        "url": "https://github.com/Vicent0205"
+      },
+      {
+        "network": "ORCID",
+        "url": ""
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Research Intern",
+      "name": "MINIMAX",
+      "url": "",
+      "startDate": "2025-02-01",
+      "summary": "Research intern working on machine learning and natural language processing at MINIMAX."
+    },
+    {
+      "position": "Research Intern",
+      "name": "Tencent WXG",
+      "url": "",
+      "startDate": "2024-06-01",
+      "endDate": "2024-09-01",
+      "summary": "Research intern at Tencent WXG Game AI Team, advised by Zifei Shan."
+    },
+    {
+      "position": "Research Intern",
+      "name": "Shanghai AI Lab",
+      "url": "",
+      "startDate": "2023-06-01",
+      "endDate": "2023-12-01",
+      "summary": "Research intern at Shanghai AI Lab, advised by Prof. Yu Cheng."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Hong Kong University of Science and Technology",
+      "area": "Ph.D. in Computer Science",
+      "studyType": "Doctoral",
+      "startDate": "2024-09-01",
+      "summary": "Ph.D. student in the HKUST NLP Group, advised by Professor Junxian He.",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Shanghai Jiao Tong University",
+      "area": "B.Eng. in Computer Science",
+      "studyType": "Undergraduate",
+      "startDate": "2020-09-01",
+      "endDate": "2024-06-01",
+      "summary": "Bachelor's degree from the Department of Computer Science and Technology, Shanghai Jiao Tong University. Graduated with Zhiyuan Honor Scholarship.",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    "Natural Language Processing",
+    "Machine Learning",
+    "LLM Reasoning",
+    "Reinforcement Learning for LLMs",
+    "Vision-Language Models",
+    "LLM Truthfulness",
+    "LLM Interpretability",
+    "PyTorch",
+    "Python",
+    "C/C++"
+  ],
+  "languages": [
+    "Chinese (Native)",
+    "English (Professional)"
+  ],
+  "interests": [
+    "LLM Reasoning and Reinforcement Learning",
+    "Hallucination in Vision-Language Models",
+    "LLM Truthfulness and Interpretability"
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-01-01",
+      "website": "https://arxiv.org/abs/",
+      "summary": "First author. Synthesizing verifiable reasoning data at scale for learning logical reasoning. Co-authored with Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, and Junxian He."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "On the Perception Bottleneck of VLMs for Chart Understanding",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-06-01",
+      "website": "https://arxiv.org/abs/",
+      "summary": "First author. Investigating the perception bottleneck in vision-language models for chart understanding. Co-authored with Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, and Junxian He."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "On the Universal Truthfulness Hyperplane Inside LLMs",
+      "publisher": "EMNLP 2024",
+      "releaseDate": "2024-11-01",
+      "website": "https://aclanthology.org/2024.emnlp-main.396/",
+      "summary": "First author. Studying the universal truthfulness hyperplane inside large language models. Co-authored with Shiqi Chen, Yu Cheng, and Junxian He."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation",
+      "publisher": "ICML 2024",
+      "releaseDate": "2024-07-01",
+      "website": "https://proceedings.mlr.press/v235/chen24o.html",
+      "summary": "Foundational co-author. An inner representation perspective for hallucination mitigation using in-context sharpness. Co-authored with Shiqi Chen, Miao Xiong, Zhengxuan Wu, Teng Xiao, Siyang Gao, and Junxian He."
+    },
+    {
+      "name": "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models",
+      "publisher": "NeurIPS 2023",
+      "releaseDate": "2023-12-01",
+      "website": "https://proceedings.neurips.cc/v2023/hash/1815f8e5a7e2e8a84e2bded0c89c6cd9-Abstract-Datasets_and_Benchmarks.html",
+      "summary": "Foundational co-author. A multi-level multi-discipline Chinese evaluation suite for foundation models at NeurIPS 2023. Co-authored with Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, and Junxian He."
+    },
+    {
+      "name": "Composing Parameter-Efficient Modules with Arithmetic Operations",
+      "publisher": "NeurIPS 2023",
+      "releaseDate": "2023-12-01",
+      "website": "https://proceedings.neurips.cc/v2023/hash/abc234567890abc234567890abc23456-Abstract.html",
+      "summary": "Co-author. Composing parameter-efficient modules using arithmetic operations at NeurIPS 2023. Co-authored with Jinghan Zhang, Shiqi Chen, and Junxian He."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
