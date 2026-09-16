@@ -1,0 +1,82 @@
+# Publications
+# Publication entries should follow the format below.
+# Each entry should have a 'title', 'venue', 'date', and 'url' field.
+# See the _publications directory for examples.
+
+- title: "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond"
+  venue: "Arxiv"
+  date: 2025-05-01
+  url: "https://arxiv.org/abs/"
+  category: conferences
+  publication_type: "0"
+  authors: "Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He"
+  featured: true
+  abstract: "This work introduces SynLogic, a novel framework for synthesizing verifiable reasoning data at scale. We demonstrate that our data can be used to improve the logical reasoning capabilities of language models across multiple benchmarks."
+  code: ""
+  featured_image: ""
+  location: ""
+
+- title: "On the Perception Bottleneck of VLMs for Chart Understanding"
+  venue: "Arxiv"
+  date: 2025-05-01
+  url: "https://arxiv.org/abs/"
+  category: conferences
+  publication_type: "0"
+  authors: "Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He"
+  featured: true
+  abstract: "We investigate the perception bottleneck in Vision-Language Models when processing chart images. Our findings reveal that VLMs struggle with key perception aspects needed for accurate chart understanding, including fine-grained details and spatial relationships."
+  code: "https://github.com/Vicent0205/Vision4Chart"
+  featured_image: ""
+  location: ""
+
+- title: "On the Universal Truthfulness Hyperplane Inside LLMs"
+  venue: "EMNLP 2024"
+  date: 2024-11-30
+  url: "https://arxiv.org/abs/"
+  category: conferences
+  publication_type: "0"
+  authors: "Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He"
+  featured: true
+  abstract: "We introduce the concept of a universal truthfulness hyperplane inside large language models. This hyperplane represents the decision boundary between truthful and hallucinated responses, and we show that it can be consistently identified across different tasks and models."
+  code: "https://github.com/Vicent0205/Universal_Truthfulness_Hyperplane"
+  featured_image: ""
+  location: ""
+
+- title: "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation"
+  venue: "ICML 2024"
+  date: 2024-07-21
+  url: "https://arxiv.org/abs/"
+  category: conferences
+  publication_type: "0"
+  authors: "Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He"
+  featured: false
+  abstract: "We propose a novel approach to hallucination mitigation by analyzing the sharpness of inner representations in context. Our method uses in-context sharpness as an alert signal to detect and mitigate hallucinations in language models."
+  code: ""
+  featured_image: ""
+  location: ""
+
+- title: "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models"
+  venue: "NeurIPS 2023"
+  date: 2023-12-01
+  url: "https://arxiv.org/abs/"
+  category: conferences
+  publication_type: "0"
+  authors: "Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He"
+  featured: false
+  abstract: "C-Eval is a comprehensive Chinese evaluation suite designed to assess the capabilities of foundation models across multiple disciplines and difficulty levels. It provides a standardized benchmark for evaluating Chinese-language model performance."
+  code: ""
+  featured_image: ""
+  location: ""
+
+- title: "Composing Parameter-Efficient Modules with Arithmetic Operations"
+  venue: "NeurIPS 2023"
+  date: 2023-12-01
+  url: "https://arxiv.org/abs/"
+  category: conferences
+  publication_type: "0"
+  authors: "Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He"
+  featured: false
+  abstract: "We present a novel method for composing parameter-efficient modules using arithmetic operations. This approach enables efficient model adaptation while maintaining performance across various tasks."
+  code: ""
+  featured_image: ""
+  location: ""
