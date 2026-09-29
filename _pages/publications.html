@@ -1,36 +1,28 @@
 ---
-layout: archive
-title: "Publications"
 permalink: /publications/
+title: "Publications"
 author_profile: true
+toc: true
+toc_sticky: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<div class="projects-list">
+{% assign publications = site.publications %}
+{% for publication in publications %}
+<div class="project-card" itemscope itemtype="https://schema.org/CreativeWork">
+  <div class="row">
+    <div class="col-12 col-lg-5">
+      <h3 itemprop="name" class="project-title"><a href="{{ publication.url | relative_url }}">{{ publication.title | escape }}</a></h3>
+    </div>
+    <div class="col-12 col-lg-7">
+      <div class="project-description">
+        <p>{{ publication.description | strip_html | truncatewords: 50 }}</p>
+      </div>
+      <div class="project-period" itemprop="datePublished" content="{{ publication.date | date_to_xmlschema }}">
+        {{ publication.date | date: "%B %Y" }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
