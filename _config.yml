@@ -43,7 +43,7 @@ author:
   pubmed           :
   researchgate     :
   scopus           :
-  zotero
+  zotero           :
 
 
   # Repositories and software development
@@ -79,7 +79,7 @@ author:
   wikipedia        :
   xing             :
   youtube          :
-  zhihu
+  zhihu            :
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
